@@ -20,6 +20,10 @@
 def getUserInput():
     userInput = input('Please enter the length? ')
     return userInput
+
+def convertINtoMM(inches):
+    convertedMM = float(inchesToConvert) * 25.4
+    return convertedMM
 a=1
 while a == 1:
     userChoise = input ('Please select an option \n '
@@ -32,7 +36,7 @@ while a == 1:
         print(" The conversion = " + str(convertedIN) + "in")
     elif userChoise == '2':
         inchesToConvert = getUserInput()
-        convertedMM = float(inchesToConvert) * 25.4
+        convertedMM = convertINtoMM(inchesToConvert)
         print(" The conversion = " + str(convertedMM) + "mm")
     else:
         a=2
