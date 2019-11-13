@@ -35,4 +35,4 @@ while True:
     userChoise = input ('Please select an option \n '
                         ' 1- mm to inches \n'
                         ' 2- inches to mm \n')
-    print(userChoise)
+    if userChoise == 1:
