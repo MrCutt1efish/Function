@@ -21,12 +21,18 @@ def getUserInput():
     userInput = input('Please enter the length? ')
     return userInput
 
-inchesToConvert = getUserInput()
-convertedMM = float(inchesToConvert) * 25.4
-print(" The conversion = " + str(convertedMM))
-# mmToConvert = initial mm
-# convertedIN = converted in
+# inchesToConvert = getUserInput()
+# convertedMM = float(inchesToConvert) * 25.4
+# print(" The conversion = " + str(convertedMM))
+# # mmToConvert = initial mm
+# # convertedIN = converted in
 
-mmToConvert = getUserInput()
-convertedIN = float(mmToConvert) / 25.4
-print(" The conversion = " + str(convertedIN))
+# mmToConvert = getUserInput()
+# convertedIN = float(mmToConvert) / 25.4
+# print(" The conversion = " + str(convertedIN))
+
+while True:
+    userChoise = input ('Please select an option \n '
+                        ' 1- mm to inches \n'
+                        ' 2- inches to mm \n')
+    print(userChoise)
